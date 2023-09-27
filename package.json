@@ -1,0 +1,38 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "20.6.3",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
+    "clsx": "^2.0.0",
+    "csv-parser": "^3.0.0",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.5.2",
+    "fs": "^0.0.1-security",
+    "next": "13.5.2",
+    "prismjs": "^1.29.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.2",
+    "react-simple-code-editor": "^0.13.1",
+    "react-virtuoso": "^4.6.0",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.26.1",
+    "@types/react-virtualized-auto-sizer": "^1.0.1",
+    "@types/react-window": "^1.8.5",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3"
+  }
+}
