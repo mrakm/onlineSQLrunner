@@ -24,17 +24,32 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Library
+| Library | Version | Purpose |
+|---------------------------|-----------|-------------------------------------------------------------------------|
+| @reduxjs/toolkit | ^1.9.5 | Redux state management toolkit |
+| @types/node | 20.6.3 | TypeScript type definitions for Node.js |
+| @types/react | 18.2.22 | TypeScript type definitions for React |
+| @types/react-dom | 18.2.7 | TypeScript type definitions for React DOM |
+| clsx | ^2.0.0 | Utility for constructing CSS class names dynamically |
+| csv-parser | ^3.0.0 | Library for parsing CSV files |
+| eslint | 8.49.0 | JavaScript and TypeScript linter |
+| eslint-config-next | 13.5.2 | ESLint configuration for Next.js projects |
+| fs | ^0.0.1-security | File system access in Node.js |
+| next | 13.5.2 | Framework for building server-rendered React applications |
+| prismjs | ^1.29.0 | Syntax highlighter for code snippets |
+| react | 18.2.0 | JavaScript library for building user interfaces |
+| react-dom | 18.2.0 | Library for rendering React components to the DOM |
+| react-redux | ^8.1.2 | React bindings for Redux |
+| react-simple-code-editor | ^0.13.1 | Lightweight code editor component for React |
+| react-virtuoso | ^4.6.0 | Virtualized list component for React |
+| typescript | 5.2.2 | Superset of JavaScript with static typing |
+| @types/prismjs | ^1.26.1 | TypeScript type definitions for Prism.js |
+| @types/react-virtualized-auto-sizer | ^1.0.1 | TypeScript type definitions for React Virtualized AutoSizer |
+| @types/react-window | ^1.8.5 | TypeScript type definitions for React Window |
+| autoprefixer | ^10.4.16 | CSS vendor prefixing tool |
+| postcss | ^8.4.30 | CSS post-processor |
+| tailwindcss | ^3.3.3 | Utility-first CSS framework |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
