@@ -1,5 +1,5 @@
 ## Deploy link
-
+https://frolicking-creponne-0be325.netlify.app/
 ## Main Feature
 The SQL Runner Application is made in such a way that it allows you to execute SQL queries and render large table entries without experiencing performance bottlenecks. With this application, you can efficiently work with databases containing up to 1 million table entries,the application can show 1 million table rows for any individual table without loosing the performance
 
