@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-const FILE_PATH = 'https://raw.githubusercontent.com/mrakm/onlineSQLrunner/main/src/pages/api/data/';
+const FILE_PATH = 'https://raw.githubusercontent.com/mrakm/onlineSQLrunner/main/src/data/';
 
 export default async function handler(
   req: NextApiRequest,
