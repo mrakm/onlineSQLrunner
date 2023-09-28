@@ -3,6 +3,15 @@ https://frolicking-creponne-0be325.netlify.app/
 ## Main Feature
 The SQL Runner Application is made in such a way that it allows you to execute SQL queries and render large table entries without experiencing performance bottlenecks. With this application, you can efficiently work with databases containing up to 1 million table entries,the application can show 1 million table rows for any individual table without loosing the performance
 
+## Performance
+Page load in 100millisec, no performance of UI blocking even if the table size in of more than 1000 lines, no js blocking, proper garbage collection.Used network and performance tab to monitor these infos.
+<img width="1437" alt="image" src="https://github.com/mrakm/onlineSQLrunner/assets/32322434/079b1baa-28e6-4977-90fc-0a2959b1ff02">
+<img width="1424" alt="image" src="https://github.com/mrakm/onlineSQLrunner/assets/32322434/92129acd-aefc-4b1b-8f00-bd7e9b3cdf05">
+<img width="493" alt="image" src="https://github.com/mrakm/onlineSQLrunner/assets/32322434/e899994b-1028-4432-9d44-b01109655307">
+
+
+
+
 ## TODO
 Created rough system architecture design, need to properly document it.
 
