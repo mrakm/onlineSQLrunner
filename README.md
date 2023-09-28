@@ -1,5 +1,11 @@
 ## Deploy link
 
+## Main Feature
+The SQL Runner Application is made in such a way that it allows you to execute SQL queries and render large table entries without experiencing performance bottlenecks. With this application, you can efficiently work with databases containing up to 1 million table entries,the application can show 1 million table rows for any individual table without loosing the performance
+
+## TODO
+Created rough system architecture design, need to properly document it.
+
 ## ScreenShot
 ![image](https://github.com/mrakm/onlineSQLrunner/assets/32322434/5c3c7e86-36a0-4504-abe7-5ec1ea2535f9)
 ![image](https://github.com/mrakm/onlineSQLrunner/assets/32322434/f506cf43-ce6e-4acc-8464-c80a0e7f4fb2)
