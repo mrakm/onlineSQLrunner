@@ -1,30 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Deploy link
 
-## Getting Started
+## Main Feature
+The SQL Runner Application is made in such a way that it allows you to execute SQL queries and render large table entries without experiencing performance bottlenecks. With this application, you can efficiently work with databases containing up to 1 million table entries,the application can show 1 million table rows for any individual table without loosing the performance
 
-First, run the development server:
+## TODO
+Created rough system architecture design, need to properly document it.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ScreenShot
+![image](https://github.com/mrakm/onlineSQLrunner/assets/32322434/5c3c7e86-36a0-4504-abe7-5ec1ea2535f9)
+![image](https://github.com/mrakm/onlineSQLrunner/assets/32322434/f506cf43-ce6e-4acc-8464-c80a0e7f4fb2)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Library
+## Library Used
 | Library | Version | Purpose |
 |---------------------------|-----------|-------------------------------------------------------------------------|
 | @reduxjs/toolkit | ^1.9.5 | Redux state management toolkit |
