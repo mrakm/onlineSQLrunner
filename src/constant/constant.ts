@@ -29,3 +29,4 @@ export const INNITIAL_HISTORY = [
     query: INSERT_QUERRY,
   },
 ];
+export const CSV_PATH='/data/'
